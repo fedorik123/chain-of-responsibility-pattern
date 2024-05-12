@@ -1,0 +1,71 @@
+# Doxyfile configuration file
+
+# Specify the version number of Doxygen (optional but recommended)
+DOXYFILE_ENCODING      = UTF-8
+DOXYGEN_VERSION         = 1.8.20
+
+# Set the project name and version
+PROJECT_NAME            = "Chain Of Responsibility"
+PROJECT_NUMBER          = 1.0
+
+# Specify the source code directory or directories
+INPUT                   = .
+
+# Set the output directory for the generated documentation
+OUTPUT_DIRECTORY        = docs
+
+# Enable recursive search for input files
+RECURSIVE               = YES
+
+# Set the configuration file for the search paths (optional)
+CONFIGURATION           = 
+
+# Specify the files to exclude from processing (optional)
+EXCLUDE                 = 
+
+# Set the file patterns to ignore (optional)
+EXCLUDE_PATTERNS        = 
+
+# Specify the directories to exclude (optional)
+EXCLUDE_SYMLINKS        = 
+
+# Set the file patterns to exclude from scanning (optional)
+EXCLUDE_SYMBOLS         = 
+
+# Specify the location of the XML output for external tools (optional)
+GENERATE_XML            = YES
+XML_OUTPUT              = xml
+
+# Enable generation of LaTeX output (optional)
+GENERATE_LATEX          = NO
+
+# Set the configuration file for the LaTeX output (optional)
+LATEX_OUTPUT            = latex
+
+# Enable generation of HTML output
+GENERATE_HTML           = YES
+
+# Set the path to the HTML output (optional)
+HTML_OUTPUT             = html
+
+# Set the title for the HTML documentation
+HTML_TITLE              = "Chain Of Responsibility Documentation"
+
+# Enable/disable the generation of a CHM file (Windows HTML Help)
+GENERATE_CHM            = NO
+
+# Set the path to the CHM output (optional)
+CHM_OUTPUT              = chm
+
+# Enable/disable the generation of a PDF file
+GENERATE_PDF            = NO
+
+# Set the path to the PDF output (optional)
+PDF_OUTPUT              = pdf
+
+# Specify additional configuration options here (optional)
+# For example:
+# EXAMPLE_PATH           = examples
+# IMAGE_PATH             = images
+
+# End of Doxyfile

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_chain_of_responsibility_1_1_ticket" kind="class" language="C#" prot="public">
+    <compoundname>ChainOfResponsibility::Ticket</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_chain_of_responsibility_1_1_ticket_1af302fdec97b05be45a641ef8bf48d458" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ChainOfResponsibility.Ticket.Content</definition>
+        <argsstring></argsstring>
+        <name>Content</name>
+        <qualifiedname>ChainOfResponsibility.Ticket.Content</qualifiedname>
+        <briefdescription>
+<para>Gets the content of the ticket. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Ticket.cs" line="11" column="23" bodyfile="Ticket.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_chain_of_responsibility_1_1_ticket_1a2ed45f580e488a2e88f1dcd71e8a08c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="namespace_chain_of_responsibility_1a5341410d5915254d1feb5e983c01585e" kindref="member">Priority</ref></type>
+        <definition>Priority ChainOfResponsibility.Ticket.Priority</definition>
+        <argsstring></argsstring>
+        <name>Priority</name>
+        <qualifiedname>ChainOfResponsibility.Ticket.Priority</qualifiedname>
+        <briefdescription>
+<para>Gets the priority of the ticket. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Ticket.cs" line="16" column="25" bodyfile="Ticket.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_chain_of_responsibility_1_1_ticket_1a60b5fd0516fe622b530fb2691fa6da06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ChainOfResponsibility.Ticket.Ticket</definition>
+        <argsstring>(string content, Priority priority)</argsstring>
+        <name>Ticket</name>
+        <qualifiedname>ChainOfResponsibility.Ticket.Ticket</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_chain_of_responsibility_1a5341410d5915254d1feb5e983c01585e" kindref="member">Priority</ref></type>
+          <declname>priority</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the Ticket class with the specified content and priority. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>content</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The content of the ticket.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>priority</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The priority of the ticket.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Ticket.cs" line="23" column="16" bodyfile="Ticket.cs" bodystart="23" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents a ticket with priority and content. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Ticket.cs" line="6" column="11" bodyfile="Ticket.cs" bodystart="7" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_chain_of_responsibility_1_1_ticket_1af302fdec97b05be45a641ef8bf48d458" prot="public" virt="non-virtual"><scope>ChainOfResponsibility::Ticket</scope><name>Content</name></member>
+      <member refid="class_chain_of_responsibility_1_1_ticket_1a2ed45f580e488a2e88f1dcd71e8a08c6" prot="public" virt="non-virtual"><scope>ChainOfResponsibility::Ticket</scope><name>Priority</name></member>
+      <member refid="class_chain_of_responsibility_1_1_ticket_1a60b5fd0516fe622b530fb2691fa6da06" prot="public" virt="non-virtual"><scope>ChainOfResponsibility::Ticket</scope><name>Ticket</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_chain_of_responsibility_1_1_abstract_handler" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>ChainOfResponsibility::AbstractHandler</compoundname>
+    <derivedcompoundref refid="class_chain_of_responsibility_1_1_high_priority_handler" prot="public" virt="non-virtual">ChainOfResponsibility.HighPriorityHandler</derivedcompoundref>
+    <derivedcompoundref refid="class_chain_of_responsibility_1_1_low_priority_handler" prot="public" virt="non-virtual">ChainOfResponsibility.LowPriorityHandler</derivedcompoundref>
+    <derivedcompoundref refid="class_chain_of_responsibility_1_1_medium_priority_handler" prot="public" virt="non-virtual">ChainOfResponsibility.MediumPriorityHandler</derivedcompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_chain_of_responsibility_1_1_abstract_handler_1a74e714ce31e1856db6c9fa703afdb94b" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_chain_of_responsibility_1_1_abstract_handler" kindref="compound">AbstractHandler</ref></type>
+        <definition>AbstractHandler ChainOfResponsibility.AbstractHandler._nextHandler</definition>
+        <argsstring></argsstring>
+        <name>_nextHandler</name>
+        <qualifiedname>ChainOfResponsibility.AbstractHandler._nextHandler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractHandler.cs" line="10" column="35" bodyfile="AbstractHandler.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_chain_of_responsibility_1_1_abstract_handler_1aa74fb9ffec71404a680722e9af00e48f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_chain_of_responsibility_1_1_abstract_handler" kindref="compound">AbstractHandler</ref></type>
+        <definition>AbstractHandler ChainOfResponsibility.AbstractHandler.SetNextHandler</definition>
+        <argsstring>(AbstractHandler handler)</argsstring>
+        <name>SetNextHandler</name>
+        <qualifiedname>ChainOfResponsibility.AbstractHandler.SetNextHandler</qualifiedname>
+        <param>
+          <type><ref refid="class_chain_of_responsibility_1_1_abstract_handler" kindref="compound">AbstractHandler</ref></type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+<para>Sets the next handler in the chain. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>handler</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The next handler.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractHandler.cs" line="16" column="32" bodyfile="AbstractHandler.cs" bodystart="16" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chain_of_responsibility_1_1_abstract_handler_1a6123a6f80ec94f6a5ad3b0a3899fd275" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ChainOfResponsibility.AbstractHandler.Handle</definition>
+        <argsstring>(Ticket ticket)</argsstring>
+        <name>Handle</name>
+        <qualifiedname>ChainOfResponsibility.AbstractHandler.Handle</qualifiedname>
+        <reimplementedby refid="class_chain_of_responsibility_1_1_high_priority_handler_1a42313a9d752cdbbda9c5e2da04ea6025">Handle</reimplementedby>
+        <reimplementedby refid="class_chain_of_responsibility_1_1_low_priority_handler_1af4c1dfff4ad4a0f9780315c8cadf5482">Handle</reimplementedby>
+        <reimplementedby refid="class_chain_of_responsibility_1_1_medium_priority_handler_1a6350826c23955d45f34fd88f6b5c8216">Handle</reimplementedby>
+        <param>
+          <type><ref refid="class_chain_of_responsibility_1_1_ticket" kindref="compound">Ticket</ref></type>
+          <declname>ticket</declname>
+        </param>
+        <briefdescription>
+<para>Handles the ticket. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ticket</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The ticket to handle.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractHandler.cs" line="27" column="29" bodyfile="AbstractHandler.cs" bodystart="27" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Abstract handler class for handling tickets. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ChainOfResponsibility.AbstractHandler</label>
+        <link refid="class_chain_of_responsibility_1_1_abstract_handler"/>
+      </node>
+      <node id="2">
+        <label>ChainOfResponsibility.HighPriorityHandler</label>
+        <link refid="class_chain_of_responsibility_1_1_high_priority_handler"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ChainOfResponsibility.LowPriorityHandler</label>
+        <link refid="class_chain_of_responsibility_1_1_low_priority_handler"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ChainOfResponsibility.MediumPriorityHandler</label>
+        <link refid="class_chain_of_responsibility_1_1_medium_priority_handler"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ChainOfResponsibility.AbstractHandler</label>
+        <link refid="class_chain_of_responsibility_1_1_abstract_handler"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_nextHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ChainOfResponsibility.AbstractHandler</label>
+        <link refid="class_chain_of_responsibility_1_1_abstract_handler"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_nextHandler</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="AbstractHandler.cs" line="8" column="21" bodyfile="AbstractHandler.cs" bodystart="9" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_chain_of_responsibility_1_1_abstract_handler_1a74e714ce31e1856db6c9fa703afdb94b" prot="protected" virt="non-virtual"><scope>ChainOfResponsibility::AbstractHandler</scope><name>_nextHandler</name></member>
+      <member refid="class_chain_of_responsibility_1_1_abstract_handler_1a6123a6f80ec94f6a5ad3b0a3899fd275" prot="public" virt="virtual"><scope>ChainOfResponsibility::AbstractHandler</scope><name>Handle</name></member>
+      <member refid="class_chain_of_responsibility_1_1_abstract_handler_1aa74fb9ffec71404a680722e9af00e48f" prot="public" virt="non-virtual"><scope>ChainOfResponsibility::AbstractHandler</scope><name>SetNextHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

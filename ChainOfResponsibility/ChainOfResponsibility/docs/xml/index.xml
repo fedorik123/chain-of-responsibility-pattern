@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.10.0" xml:lang="en-US">
+  <compound refid="class_chain_of_responsibility_1_1_abstract_handler" kind="class"><name>ChainOfResponsibility::AbstractHandler</name>
+    <member refid="class_chain_of_responsibility_1_1_abstract_handler_1a74e714ce31e1856db6c9fa703afdb94b" kind="variable"><name>_nextHandler</name></member>
+    <member refid="class_chain_of_responsibility_1_1_abstract_handler_1aa74fb9ffec71404a680722e9af00e48f" kind="function"><name>SetNextHandler</name></member>
+    <member refid="class_chain_of_responsibility_1_1_abstract_handler_1a6123a6f80ec94f6a5ad3b0a3899fd275" kind="function"><name>Handle</name></member>
+  </compound>
+  <compound refid="class_chain_of_responsibility_1_1_high_priority_handler" kind="class"><name>ChainOfResponsibility::HighPriorityHandler</name>
+    <member refid="class_chain_of_responsibility_1_1_high_priority_handler_1a42313a9d752cdbbda9c5e2da04ea6025" kind="function"><name>Handle</name></member>
+  </compound>
+  <compound refid="class_chain_of_responsibility_1_1_low_priority_handler" kind="class"><name>ChainOfResponsibility::LowPriorityHandler</name>
+    <member refid="class_chain_of_responsibility_1_1_low_priority_handler_1af4c1dfff4ad4a0f9780315c8cadf5482" kind="function"><name>Handle</name></member>
+  </compound>
+  <compound refid="class_chain_of_responsibility_1_1_medium_priority_handler" kind="class"><name>ChainOfResponsibility::MediumPriorityHandler</name>
+    <member refid="class_chain_of_responsibility_1_1_medium_priority_handler_1a6350826c23955d45f34fd88f6b5c8216" kind="function"><name>Handle</name></member>
+  </compound>
+  <compound refid="class_chain_of_responsibility_1_1_program" kind="class"><name>ChainOfResponsibility::Program</name>
+    <member refid="class_chain_of_responsibility_1_1_program_1a9cce336134788c4ee24695424438a338" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_chain_of_responsibility_1_1_ticket" kind="class"><name>ChainOfResponsibility::Ticket</name>
+    <member refid="class_chain_of_responsibility_1_1_ticket_1af302fdec97b05be45a641ef8bf48d458" kind="property"><name>Content</name></member>
+    <member refid="class_chain_of_responsibility_1_1_ticket_1a2ed45f580e488a2e88f1dcd71e8a08c6" kind="property"><name>Priority</name></member>
+    <member refid="class_chain_of_responsibility_1_1_ticket_1a60b5fd0516fe622b530fb2691fa6da06" kind="function"><name>Ticket</name></member>
+  </compound>
+  <compound refid="namespace_chain_of_responsibility" kind="namespace"><name>ChainOfResponsibility</name>
+    <member refid="namespace_chain_of_responsibility_1a5341410d5915254d1feb5e983c01585e" kind="enum"><name>Priority</name></member>
+    <member refid="namespace_chain_of_responsibility_1a5341410d5915254d1feb5e983c01585ea28d0edd045e05cf5af64e35ae0c4c6ef" kind="enumvalue"><name>Low</name></member>
+    <member refid="namespace_chain_of_responsibility_1a5341410d5915254d1feb5e983c01585ea87f8a6ab85c9ced3702b4ea641ad4bb5" kind="enumvalue"><name>Medium</name></member>
+    <member refid="namespace_chain_of_responsibility_1a5341410d5915254d1feb5e983c01585ea655d20c1ca69519ca647684edbb2db35" kind="enumvalue"><name>High</name></member>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system" kind="namespace"><name>global::System</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_collections_1_1_generic" kind="namespace"><name>global::System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_i_o" kind="namespace"><name>global::System::IO</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_linq" kind="namespace"><name>global::System::Linq</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_net_1_1_http" kind="namespace"><name>global::System::Net::Http</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading" kind="namespace"><name>global::System::Threading</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading_1_1_tasks" kind="namespace"><name>global::System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net_1_1_sockets" kind="namespace"><name>System::Net::Sockets</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="_abstract_handler_8cs" kind="file"><name>AbstractHandler.cs</name>
+  </compound>
+  <compound refid="_high_priority_handler_8cs" kind="file"><name>HighPriorityHandler.cs</name>
+  </compound>
+  <compound refid="_low_priority_handler_8cs" kind="file"><name>LowPriorityHandler.cs</name>
+  </compound>
+  <compound refid="_medium_priority_handler_8cs" kind="file"><name>MediumPriorityHandler.cs</name>
+  </compound>
+  <compound refid="_debug_2net8_80_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_release_2net8_80_2_8_n_e_t_core_app_00_version_0av8_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v8.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_debug_2net8_80_2_chain_of_responsibility_8_assembly_info_8cs" kind="file"><name>ChainOfResponsibility.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_release_2net8_80_2_chain_of_responsibility_8_assembly_info_8cs" kind="file"><name>ChainOfResponsibility.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_debug_2net8_80_2_chain_of_responsibility_8_global_usings_8g_8cs" kind="file"><name>ChainOfResponsibility.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_release_2net8_80_2_chain_of_responsibility_8_global_usings_8g_8cs" kind="file"><name>ChainOfResponsibility.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_priority_8cs" kind="file"><name>Priority.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_ticket_8cs" kind="file"><name>Ticket.cs</name>
+  </compound>
+  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>obj/Debug</name>
+  </compound>
+  <compound refid="dir_4ad6c4ce518a9fa81f4ccf8af5f59991" kind="dir"><name>obj/Debug/net8.0</name>
+  </compound>
+  <compound refid="dir_462d10c84c8e86466b42283666d397ba" kind="dir"><name>obj/Release/net8.0</name>
+  </compound>
+  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>obj</name>
+  </compound>
+  <compound refid="dir_9fe5cc214b8578ee5b8e153089aca810" kind="dir"><name>obj/Release</name>
+  </compound>
+</doxygenindex>

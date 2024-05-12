@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_low_priority_handler_8cs" kind="file" language="C#">
+    <compoundname>LowPriorityHandler.cs</compoundname>
+    <innerclass refid="class_chain_of_responsibility_1_1_low_priority_handler" prot="public">ChainOfResponsibility::LowPriorityHandler</innerclass>
+    <innernamespace refid="namespace_chain_of_responsibility">ChainOfResponsibility</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using<sp/></highlight><highlight class="normal">System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_chain_of_responsibility" kindref="compound">ChainOfResponsibility</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_chain_of_responsibility_1_1_low_priority_handler" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_chain_of_responsibility_1_1_low_priority_handler" kindref="compound">LowPriorityHandler</ref><sp/>:<sp/><ref refid="class_chain_of_responsibility_1_1_abstract_handler" kindref="compound">AbstractHandler</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_chain_of_responsibility_1_1_low_priority_handler_1af4c1dfff4ad4a0f9780315c8cadf5482" kindref="member">Handle</ref>(<ref refid="class_chain_of_responsibility_1_1_ticket" kindref="compound">Ticket</ref><sp/>ticket)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ticket.<ref refid="class_chain_of_responsibility_1_1_ticket_1a2ed45f580e488a2e88f1dcd71e8a08c6" kindref="member">Priority</ref><sp/>==<sp/><ref refid="namespace_chain_of_responsibility_1a5341410d5915254d1feb5e983c01585e" kindref="member">Priority</ref>.Low)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Console.WriteLine(</highlight><highlight class="stringliteral">&quot;Low<sp/>priority<sp/>handler<sp/>is<sp/>handling<sp/>the<sp/>ticket:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>ticket.<ref refid="class_chain_of_responsibility_1_1_ticket_1af302fdec97b05be45a641ef8bf48d458" kindref="member">Content</ref>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>base.<ref refid="class_chain_of_responsibility_1_1_abstract_handler_1a6123a6f80ec94f6a5ad3b0a3899fd275" kindref="member">Handle</ref>(ticket);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="LowPriorityHandler.cs"/>
+  </compounddef>
+</doxygen>

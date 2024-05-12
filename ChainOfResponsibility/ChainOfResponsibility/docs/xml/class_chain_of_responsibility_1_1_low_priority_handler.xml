@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_chain_of_responsibility_1_1_low_priority_handler" kind="class" language="C#" prot="public">
+    <compoundname>ChainOfResponsibility::LowPriorityHandler</compoundname>
+    <basecompoundref refid="class_chain_of_responsibility_1_1_abstract_handler" prot="public" virt="non-virtual">ChainOfResponsibility.AbstractHandler</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_chain_of_responsibility_1_1_low_priority_handler_1af4c1dfff4ad4a0f9780315c8cadf5482" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void ChainOfResponsibility.LowPriorityHandler.Handle</definition>
+        <argsstring>(Ticket ticket)</argsstring>
+        <name>Handle</name>
+        <qualifiedname>ChainOfResponsibility.LowPriorityHandler.Handle</qualifiedname>
+        <reimplements refid="class_chain_of_responsibility_1_1_abstract_handler_1a6123a6f80ec94f6a5ad3b0a3899fd275">Handle</reimplements>
+        <param>
+          <type><ref refid="class_chain_of_responsibility_1_1_ticket" kindref="compound">Ticket</ref></type>
+          <declname>ticket</declname>
+        </param>
+        <briefdescription>
+<para>Handles the ticket with low priority. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ticket</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The ticket to handle.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LowPriorityHandler.cs" line="14" column="30" bodyfile="LowPriorityHandler.cs" bodystart="14" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Concrete handler for handling low priority tickets. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AbstractHandler</label>
+        <link refid="class_chain_of_responsibility_1_1_abstract_handler"/>
+      </node>
+      <node id="1">
+        <label>ChainOfResponsibility.LowPriorityHandler</label>
+        <link refid="class_chain_of_responsibility_1_1_low_priority_handler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AbstractHandler</label>
+        <link refid="class_chain_of_responsibility_1_1_abstract_handler"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_nextHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ChainOfResponsibility.LowPriorityHandler</label>
+        <link refid="class_chain_of_responsibility_1_1_low_priority_handler"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ChainOfResponsibility.AbstractHandler</label>
+        <link refid="class_chain_of_responsibility_1_1_abstract_handler"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_nextHandler</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="LowPriorityHandler.cs" line="8" column="11" bodyfile="LowPriorityHandler.cs" bodystart="9" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_chain_of_responsibility_1_1_abstract_handler_1a74e714ce31e1856db6c9fa703afdb94b" prot="protected" virt="non-virtual"><scope>ChainOfResponsibility::LowPriorityHandler</scope><name>_nextHandler</name></member>
+      <member refid="class_chain_of_responsibility_1_1_low_priority_handler_1af4c1dfff4ad4a0f9780315c8cadf5482" prot="public" virt="virtual"><scope>ChainOfResponsibility::LowPriorityHandler</scope><name>Handle</name></member>
+      <member refid="class_chain_of_responsibility_1_1_abstract_handler_1aa74fb9ffec71404a680722e9af00e48f" prot="public" virt="non-virtual"><scope>ChainOfResponsibility::LowPriorityHandler</scope><name>SetNextHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

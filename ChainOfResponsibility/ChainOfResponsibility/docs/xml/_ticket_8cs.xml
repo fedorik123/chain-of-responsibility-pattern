@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_ticket_8cs" kind="file" language="C#">
+    <compoundname>Ticket.cs</compoundname>
+    <innerclass refid="class_chain_of_responsibility_1_1_ticket" prot="public">ChainOfResponsibility::Ticket</innerclass>
+    <innernamespace refid="namespace_chain_of_responsibility">ChainOfResponsibility</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_chain_of_responsibility" kindref="compound">ChainOfResponsibility</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_chain_of_responsibility_1_1_ticket" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_chain_of_responsibility_1_1_ticket" kindref="compound">Ticket</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_chain_of_responsibility_1_1_ticket_1af302fdec97b05be45a641ef8bf48d458" kindref="member">Content</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="namespace_chain_of_responsibility_1a5341410d5915254d1feb5e983c01585e" kindref="member">Priority</ref><sp/><ref refid="namespace_chain_of_responsibility_1a5341410d5915254d1feb5e983c01585e" kindref="member">Priority</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_chain_of_responsibility_1_1_ticket_1a60b5fd0516fe622b530fb2691fa6da06" kindref="member">Ticket</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>content,<sp/><ref refid="namespace_chain_of_responsibility_1a5341410d5915254d1feb5e983c01585e" kindref="member">Priority</ref><sp/>priority)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_chain_of_responsibility_1_1_ticket_1af302fdec97b05be45a641ef8bf48d458" kindref="member">Content</ref><sp/>=<sp/>content;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_chain_of_responsibility_1a5341410d5915254d1feb5e983c01585e" kindref="member">Priority</ref><sp/>=<sp/>priority;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Ticket.cs"/>
+  </compounddef>
+</doxygen>
